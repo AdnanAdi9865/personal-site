@@ -1,2 +1,2 @@
 # personal-site
-Website for my portfolio
+Website for my CV
