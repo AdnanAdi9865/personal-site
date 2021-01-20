@@ -72,7 +72,7 @@ a:hover{
 .bottom_cloud{
   position: absolute;
   left: 80px;
-  top: 200px;
+  top: 300px;
 }
 .house-img{
   width: 100%;
@@ -82,17 +82,17 @@ a:hover{
   margin: auto;
 }
 .skill-row-education{
-  width: 60%;
+  width: 50%;
   margin:100px auto 100px auto;
   text-align: left;
 }
 .skill-row-career{
-  width: 60%;
+  width: 50%;
   margin:100px auto 100px auto;
   text-align: left;
 }
 .skill-row-skills{
-  width: 60%;
+  width: 50%;
   margin:100px auto 100px auto;
   text-align: left;
 }
@@ -101,12 +101,19 @@ a:hover{
   width: 15%;
   display: inline-block;
   vertical-align: top;
-  margin: 100px 30px 100px 91px;
+  padding-left: 10%;
+}
+.row-img-others{
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10%;
+  padding-top: 3%;
 }
 
 .text-column {
     width: 63.9%;
-    padding: 20px;
+    padding-left: 10%;
     display: inline-block;
 }
 .profile-img{
@@ -149,4 +156,42 @@ a:hover{
   color: #EAF6F6;
   font-size: 0.75rem;
   padding-top: 20px;
+}
+@media (max-width: 1028px) {
+
+  .skill-row-education{
+    width: 64%;
+    margin:100px auto 100px auto;
+    text-align: left;
+  }
+  .skill-row-career{
+    width: 64%;
+    margin:100px auto 100px auto;
+    text-align: left;
+  }
+  .skill-row-skills{
+    width: 64%;
+    margin:100px auto 100px auto;
+    text-align: left;
+  }
+
+  .row-img{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+  }
+  .row-img-others{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3%;
+    padding-left: 0;
+  }
+
+  .text-column {
+      width: 63.9%;
+      padding-left: 9%;
+      display: inline-block;
+  }
 }
